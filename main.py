@@ -9,10 +9,6 @@ def hello_world():
     """hello world"""
     return 'Hello World!'
 
-@app.route('/api/status')
-def api_status():
-    return 'Status!'
-
 
 if __name__ == '__main__':
     # Used for running locally
